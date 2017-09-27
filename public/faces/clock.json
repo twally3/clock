@@ -1,0 +1,72 @@
+[
+    {
+        "name": "milliseconds",
+        "red": 154,
+        "green": 18,
+        "blue": 179,
+        "max": 1000,
+        "min": 0,
+        "ringScale": 0.65,
+        "handScale": 0.15
+    },
+    {
+        "name": "seconds",
+        "red": 246,
+        "green": 36,
+        "blue": 89,
+        "max": 60,
+        "min": 0,
+        "ringScale": 0.60,
+        "handScale": 0.14
+    },
+    {
+        "name": "minutes",
+        "red": 46,
+        "green": 204,
+        "blue": 113,
+        "max": 60,
+        "min": 0,
+        "ringScale": 0.55,
+        "handScale": 0.13
+    },
+    {
+        "name": "hours",
+        "red": 25,
+        "green": 181,
+        "blue": 254,
+        "max": 12,
+        "min": 0,
+        "ringScale": 0.50,
+        "handScale": 0.12
+    },
+    {
+        "name": "days",
+        "red": 242,
+        "green": 38,
+        "blue": 19,
+        "max": 6,
+        "min": 0,
+        "ringScale": 0.45,
+        "handScale": 0.11
+    },
+    {
+        "name": "date",
+        "red": 249,
+        "green": 191,
+        "blue": 59,
+        "max": 31,
+        "min": 1,
+        "ringScale": 0.40,
+        "handScale": 0.10
+    },
+    {
+        "name": "months",
+        "red": 197,
+        "green": 239,
+        "blue": 247,
+        "max": 0,
+        "min": 11,
+        "ringScale": 0.35,
+        "handScale": 0.09
+    }
+]
