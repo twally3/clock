@@ -10,16 +10,25 @@ function draw() {
     rotate(-HALF_PI)
 
     // Get time values
+    let months = month()
+    let days = day()
+    if ([1,3,5,7,8,10,12].indexOf(days) != -1) {
+        _days = map(days, 1, 31, 1, 930)
+    } else if (months == 2) {
+        _day = map(days, 1, 31, 1, 930)
+    }
     let hours = hour()
     let mins = minute()
     let secs = second()
+    let mills = millis() % 1000
 
     // Curry drawRing() set showLine param to true
-    drawRingC = drawRing.bind(null, true)
+    drawRingC = drawRing.bind(null, false)
 
     drawRingC(1, 240, 239, map(hours % 12, 0, 12, 0, TWO_PI), height*50/100, height*10/100)
-    drawRingC(153, 255, 0, map(mins, 0, 60, 0, TWO_PI), height*55/100, height*15/100)
-    drawRingC(255, 15, 27, map(secs, 0, 60, 0, TWO_PI), height*60/100, height*20/100)
+    drawRingC(153, 255, 0, map(mins, 0, 60, 0, TWO_PI), height*55/100, height*13/100)
+    drawRingC(255, 15, 27, map(secs, 0, 60, 0, TWO_PI), height*60/100, height*16/100)
+    drawRingC(255, 15, 255, map(mills, 0, 1000, 0, TWO_PI), height*65/100, height*19/100)
 }
 
 // Refactor Later
