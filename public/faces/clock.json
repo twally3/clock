@@ -64,8 +64,8 @@
         "red": 197,
         "green": 239,
         "blue": 247,
-        "max": 0,
-        "min": 11,
+        "max": 11,
+        "min": 0,
         "ringScale": 0.35,
         "handScale": 0.09
     }

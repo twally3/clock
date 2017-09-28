@@ -21,14 +21,15 @@ function draw() {
         let times = getTime(false)
 
         for (let i = clock.length - 1; i >= 0; i--) {
-            drawRingC(clock[i].red, clock[i].green, clock[i].blue, map(times[i], clock[i].min, clock[i].max, 0, TWO_PI), height * clock[i].ringScale, height * clock[i].handScale)
+            console.log(times[i])
+            drawRingC(clock[i].red, clock[i].green, clock[i].blue, map(times[clock[i].name], clock[i].min, clock[i].max, 0, TWO_PI), height * clock[i].ringScale, height * clock[i].handScale)
         }
     }
 
 }
 
 function loadClock(name) {
-    return fetch(`/faces/clock.json`)
+    return fetch(`/faces/${name}.json`)
         .then(r => r.json())
 }
 
@@ -55,7 +56,15 @@ function getTime(smooth) {
         days += hours / 24
     }
 
-    return [mills, secs, mins, hours, days, date, month]
+    return {
+        milliseconds: mills,
+        seconds: secs,
+        minutes: mins,
+        hours: hours,
+        days: days,
+        date: date,
+        months: month
+    }
 }
 
 // Refactor Later
