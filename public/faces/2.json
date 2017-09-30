@@ -1,32 +1,26 @@
 [
     {
         "name": "seconds",
-        "red": 246,
-        "green": 36,
-        "blue": 89,
-        "max": 60,
-        "min": 0,
+        "red": 255,
+        "green": 15,
+        "blue": 27,
         "ringScale": 0.65,
-        "handScale": 0.15
+        "handScale": 0.20
     },
     {
         "name": "minutes",
-        "red": 46,
-        "green": 204,
-        "blue": 113,
-        "max": 60,
-        "min": 0,
+        "red": 153,
+        "green": 255,
+        "blue": 0,
         "ringScale": 0.60,
-        "handScale": 0.14
+        "handScale": 0.15
     },
     {
         "name": "hours",
-        "red": 25,
-        "green": 181,
-        "blue": 254,
-        "max": 12,
-        "min": 0,
+        "red": 1,
+        "green": 240,
+        "blue": 239,
         "ringScale": 0.55,
-        "handScale": 0.13
+        "handScale": 0.10
     }
 ]
