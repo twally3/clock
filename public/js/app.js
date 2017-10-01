@@ -1,11 +1,11 @@
 let clock
 
-// function setup() {
-//     createCanvas(window.innerWidth, window.innerHeight)
-//     loadClock('clock').then(data => {
-//         clock = data
-//     })
-// }
+function setup() {
+    createCanvas(window.innerWidth, window.innerHeight)
+    loadClock('clock').then(data => {
+        clock = data
+    })
+}
 
 function draw() {
     background(51)

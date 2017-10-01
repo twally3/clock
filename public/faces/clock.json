@@ -4,7 +4,7 @@
         "red": 154,
         "green": 18,
         "blue": 179,
-        "ringScale": 0.65,
+        "ringScale": 0.38,
         "handScale": 0.15
     },
     {
@@ -12,7 +12,7 @@
         "red": 246,
         "green": 36,
         "blue": 89,
-        "ringScale": 0.60,
+        "ringScale": 0.35,
         "handScale": 0.14
     },
     {
@@ -20,7 +20,7 @@
         "red": 46,
         "green": 204,
         "blue": 113,
-        "ringScale": 0.55,
+        "ringScale": 0.32,
         "handScale": 0.13
     },
     {
@@ -28,7 +28,7 @@
         "red": 25,
         "green": 181,
         "blue": 254,
-        "ringScale": 0.50,
+        "ringScale": 0.29,
         "handScale": 0.12
     },
     {
@@ -36,7 +36,7 @@
         "red": 242,
         "green": 38,
         "blue": 19,
-        "ringScale": 0.45,
+        "ringScale": 0.26,
         "handScale": 0.11
     },
     {
@@ -44,7 +44,7 @@
         "red": 249,
         "green": 191,
         "blue": 59,
-        "ringScale": 0.40,
+        "ringScale": 0.23,
         "handScale": 0.10
     },
     {
@@ -52,7 +52,7 @@
         "red": 197,
         "green": 239,
         "blue": 247,
-        "ringScale": 0.35,
+        "ringScale": 0.20,
         "handScale": 0.09
     }
 ]
